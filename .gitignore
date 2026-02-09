@@ -1,0 +1,18 @@
+# secrets
+.env
+*.env
+secrets.env
+**/secrets.env
+**/*.pem
+**/*.p12
+**/*.kdbx
+id_rsa
+id_ed25519
+# deps/build
+node_modules/
+.venv/
+venv/
+__pycache__/
+dist/
+build/
+*.log
